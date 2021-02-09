@@ -1,4 +1,4 @@
-#Collection of Active Directory tools
+#Collection of Active Directory tools for Kongsberg
 
 #Create a text file and store a password as a secure string
 #this can them be used to create secure credentials for scripts/functions, etc
