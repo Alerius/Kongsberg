@@ -1,0 +1,13 @@
+﻿<Window 
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+
+        Title="User Creation" Height="450" Width="800">
+	<Grid>
+		<TextBox Name="FirstName" HorizontalAlignment="Left" Margin="108,43,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="26"/>
+		<TextBox Name="Surname" HorizontalAlignment="Left" Margin="108,85,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="26"/>
+		<TextBox Name="SamAccountName" HorizontalAlignment="Left" Margin="542,93,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsReadOnly="True"/>
+		<Button Name="CreateUser" Content="Create User" HorizontalAlignment="Left" Margin="218,242,0,0" VerticalAlignment="Top" IsDefault="True"/>
+		<Label Content="First Name :" HorizontalAlignment="Left" Margin="10,43,0,0" VerticalAlignment="Top" Width="93"/>
+		<Label Content="Surname :" HorizontalAlignment="Left" Margin="10,85,0,0" VerticalAlignment="Top" Width="93"/>
+	</Grid>
+</Window>
